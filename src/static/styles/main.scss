@@ -1,0 +1,39 @@
+#main {
+    width: 500px;
+    margin: 20px auto;
+    font-family: arial;
+}
+
+#input-container {
+  text-align: center;
+}
+
+#input-container>input {
+  line-height: 30px;
+  padding: 0px 10px;
+  width: 100%;
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#todo-list-container > div {
+	
+}
+
+#todo-list-container > div > h3 {
+	margin-bottom: 5px;
+}
+
+#todo-list-container > div > ul {
+	padding: 10px;
+	margin-top: 0;
+}
+
+#todo-list-container > div > ul > li {
+	list-style: none;
+	padding: 10px 0;
+	border-width: 0 0 1px 0;
+	border-style: solid;
+	cursor: pointer;
+}
